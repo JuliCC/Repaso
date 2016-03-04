@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @invoice.fecha %>
+</p>
+
+<p>
+  <strong>Vendedor:</strong>
+  <%= @invoice.vendedor %>
+</p>
+
+<p>
+  <strong>Comprador:</strong>
+  <%= @invoice.comprador %>
+</p>
+
+<p>
+  <strong>Unidades:</strong>
+  <%= @invoice.unidades %>
+</p>
+
+<p>
+  <strong>Costo:</strong>
+  <%= @invoice.costo %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @invoice.precio %>
+</p>
+
+<%= link_to 'Edit', edit_invoice_path(@invoice) %> |
+<%= link_to 'Back', invoices_path %>
